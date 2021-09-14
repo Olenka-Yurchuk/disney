@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 77px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.main-logo {
+    height: 88px;
+    width: 162px;
+    margin-top: 173px;
+
+}
+#header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondary-button {
+    background-color: black;
+    color: white;
+    align-self: flex-end;
+    border: transparent;
+    border-radius: 4px;
+    margin-right: 57px;
+    margin-top: 16px;
+    padding: 10px;  
+}
+.shadow-top {
+    height: 0;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    box-shadow: 0px 10px 30px 40px #000000;
+    z-index: 1;
+}
+.shadow-left {
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    left: 0;
+    box-shadow: 0px 10px 26px 40px #000000;
+}
+.shadow-bottom {
+    background-color: transparent;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 10px 26px 40px #000000;
+}
+.movies-container {
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+    margin-bottom: 240px;
+    margin-left: 590px;
+}
+.title {
+   font-weight: 500;
+   font-size: 48px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 42px;
+   margin-right: 859px;
+   white-space: nowrap;
+   }
+.prices {
+    display: flex;
+    margin-top: 24px;   
+    font-size: 32px;
+}   
+
+.prices > div:first-child {
+    margin-right: 36px;
+}
+.price-text {
+    font-size: 32px;
+}
+
+.price-text > span {
+    font-size: 16px;
+}
+.price-button {
+    background-color: #2366DD;
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    padding: 18.5px 85.5px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.text-disclaimer {
+    font-size: 12px;
+    margin-top: 36px;
+}
+.logos-container {
+    margin-top: 137px;
+    margin-left: -10px;
+    margin-bottom: 109px;    
+}
+.logos-container > img {
+    margin-right: 45px;
+}
